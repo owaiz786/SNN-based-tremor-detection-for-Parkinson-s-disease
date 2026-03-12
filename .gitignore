@@ -1,0 +1,469 @@
+# ============================================================================
+# PYTHON
+# ============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.c
+*.cpp
+*.h
+*.o
+*.obj
+*.dll
+*.exe
+*.lib
+*.exp
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ============================================================================
+# PYTORCH / DEEP LEARNING
+# ============================================================================
+# Trained model weights (large files, can be regenerated)
+*.pth
+*.pt
+*.bin
+*.chkpt
+*.ckpt
+
+# Model checkpoints directory
+checkpoints/
+models/saved/
+models/trained/
+
+# TensorBoard logs
+runs/
+logs/
+tensorboard/
+
+# CUDA cache
+*.cuda
+.nv/
+
+# ============================================================================
+# DATA FILES
+# ============================================================================
+# Large datasets (should not be committed)
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.parquet
+*.feather
+
+# CSV data files (patient data - privacy concerns)
+real_pd_data/
+data/patient_*.csv
+data/raw/
+data/processed/
+TIM-Tremor/
+Parkinson-s-Disease-Tremor-Dataset/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================================================
+# OUTPUT FILES (Can be regenerated)
+# ============================================================================
+# Generated figures and visualizations
+figures/*.png
+figures/*.jpg
+figures/*.svg
+figures/*.pdf
+videos/*.mp4
+videos/*.gif
+videos/*.avi
+
+# Results files (can be regenerated from training)
+results/*.txt
+results/*.json
+results/*.csv
+training_results*.txt
+statistical_tests.json
+visualization_summary.json
+
+# However, keep these specific result files (optional):
+# !training_results.txt
+# !figures/fig9_architecture.png
+
+# ============================================================================
+# IDE / EDITOR
+# ============================================================================
+# VS Code
+.vscode/
+*.code-workspace
+.codeintel
+.code-project
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+.loadpath
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Kate
+.kateproject
+.katesessionrc
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+
+# ============================================================================
+# OPERATING SYSTEM
+# ============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.trash-*
+.nfs*
+
+# ============================================================================
+# JUPYTER NOTEBOOKS
+# ============================================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb
+!README.ipynb
+!notebooks/*.ipynb
+
+# ============================================================================
+# ENVIRONMENT & SECRETS
+# ============================================================================
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.envrc
+
+# AWS
+.aws/
+*.pem
+
+# Google
+credentials.json
+client_secret.json
+*.json.key
+
+# Azure
+*.publishsettings
+*.publishxml
+
+# API Keys & Tokens
+*.key
+*.secret
+*secret*
+*token*
+*api_key*
+*apikey*
+
+# Passwords
+*password*
+*passwd*
+
+# ============================================================================
+# LOGS & TEMPORARY
+# ============================================================================
+# Logs
+*.log
+logs/
+log/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# Cache
+.cache/
+*.cache
+*.swc
+
+# ============================================================================
+# DOCUMENTATION
+# ============================================================================
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.idx
+*.ind
+*.lof
+*.lot
+*.out
+*.toc
+*.log
+*.nav
+*.snm
+*.vrb
+*.synctex.gz
+
+# ============================================================================
+# SPECIFIC TO THIS PROJECT
+# ============================================================================
+# Patient data (privacy - HIPAA compliance)
+patient_data/
+clinical_data/
+metadata.csv
+*patient*.csv
+
+# Large synthetic data (can be regenerated)
+generate_more_patients.py output:
+real_pd_data/patient_*.csv
+
+# Best model files (keep one, ignore others)
+best_tim_tremor_*.pth
+!best_tim_tremor_final.pth
+
+# Training checkpoints during development
+checkpoint_epoch_*.pth
+epoch_*.pth
+backup_*.pth
+
+# Profiling data
+*.prof
+*.profdata
+*.profraw
+
+# Memory dumps
+*.dmp
+*.dump
+
+# ============================================================================
+# GIT ATTRIBUTES
+# ============================================================================
+# Large files that should use Git LFS
+# *.png filter=lfs diff=lfs merge=lfs -text
+# *.jpg filter=lfs diff=lfs merge=lfs -text
+# *.mp4 filter=lfs diff=lfs merge=lfs -text
+# *.pth filter=lfs diff=lfs merge=lfs -text
+
+# ============================================================================
+# WHITELIST (Files to keep despite patterns above)
+# ============================================================================
+# Keep these important files
+!README.md
+!LICENSE
+!requirements.txt
+!setup.py
+!pyproject.toml
+!MANIFEST.in
+
+# Keep source code
+!*.py
+!src/*.py
+
+# Keep essential config
+!.gitignore
+!.gitattributes
+
+# Keep documentation
+!docs/*.md
+!docs/*.rst
+!*.md
+
+# Keep one example model (optional)
+# !models/example.pth
+
+# Keep one sample data file for testing (optional)
+# !data/sample_patient.csv
